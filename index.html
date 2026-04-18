@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Robotyka w edukacji – czym jest, zastosowania w szkołach, porównanie zestawów i korzyści dla uczniów." />
+  <title>Robotyka w Edukacji</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAWIGACJA -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Główna nawigacja">
+      <a href="#hero" class="logo">Robo<span>Edu</span></a>
+      <button class="nav-toggle" aria-label="Otwórz menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" role="list">
+        <li><a href="#czym-jest">Czym jest?</a></li>
+        <li><a href="#zastosowania">Zastosowania</a></li>
+        <li><a href="#zestawy">Zestawy</a></li>
+        <li><a href="#zalety">Zalety</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#kontakt" class="btn-nav">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="circuit-line l1"></div>
+        <div class="circuit-line l2"></div>
+        <div class="circuit-dot d1"></div>
+        <div class="circuit-dot d2"></div>
+        <div class="circuit-dot d3"></div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-kicker">Przyszłość zaczyna się w klasie</p>
+        <h1 id="hero-heading">Robotyka<br /><em>w&nbsp;Edukacji</em></h1>
+        <p class="hero-lead">Odkryj, jak roboty, programowanie i kreatywne myślenie kształtują umiejętności XXI wieku u uczniów na każdym etapie nauki.</p>
+        <div class="hero-actions">
+          <a href="#czym-jest" class="btn btn-primary">Dowiedz się więcej</a>
+          <a href="#zastosowania" class="btn btn-ghost">Zastosowania &darr;</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="robot-icon">
+          <div class="robot-head">
+            <div class="robot-eye left"></div>
+            <div class="robot-eye right"></div>
+            <div class="robot-mouth"></div>
+          </div>
+          <div class="robot-body">
+            <div class="robot-chest"></div>
+          </div>
+          <div class="robot-arms">
+            <div class="robot-arm left"></div>
+            <div class="robot-arm right"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CZYM JEST ROBOTYKA -->
+    <section class="section" id="czym-jest" aria-labelledby="czym-heading">
+      <div class="container">
+        <div class="section-label">Definicja</div>
+        <h2 id="czym-heading">Czym jest robotyka edukacyjna?</h2>
+        <div class="two-col">
+          <div class="prose">
+            <p>Robotyka edukacyjna to interdyscyplinarna dziedzina łącząca <strong>inżynierię, informatykę, matematykę i nauki przyrodnicze</strong> (obszar STEM/STEAM) w praktycznych projektach z udziałem robotów i systemów automatyki.</p>
+            <p>W odróżnieniu od tradycyjnego nauczania, uczniowie nie tylko przyswajają teorię – <em>budują, programują i testują</em> własne rozwiązania. Błąd staje się częścią procesu uczenia, a sukces projektu daje natychmiastową, namacalną nagrodę.</p>
+            <p>Zajęcia z robotyki rozwijają myślenie algorytmiczne, umiejętność pracy w grupie i kreatywność – kompetencje kluczowe na rynku pracy przyszłości.</p>
+          </div>
+          <div class="info-cards">
+            <div class="info-card accent-green">
+              <span class="info-card-icon">🔩</span>
+              <h3>Budowanie</h3>
+              <p>Uczniowie fizycznie montują konstrukcje z gotowych zestawów lub własnych elementów.</p>
+            </div>
+            <div class="info-card accent-blue">
+              <span class="info-card-icon">💻</span>
+              <h3>Programowanie</h3>
+              <p>Od bloków Scratch po Pythona – każdy etap dopasowany do wieku i umiejętności.</p>
+            </div>
+            <div class="info-card accent-amber">
+              <span class="info-card-icon">🧪</span>
+              <h3>Testowanie</h3>
+              <p>Iteracyjne poprawki uczą wytrwałości i naukowego podejścia do problemów.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ZASTOSOWANIA -->
+    <section class="section section-dark" id="zastosowania" aria-labelledby="zast-heading">
+      <div class="container">
+        <div class="section-label">Zastosowania</div>
+        <h2 id="zast-heading">Robotyka w różnych przedmiotach</h2>
+        <p class="section-intro">Roboty nie zastępują nauczycieli – stają się narzędziem, które ożywia każdy przedmiot.</p>
+        <div class="subjects-grid">
+
+          <article class="subject-card">
+            <div class="subject-icon" style="background:#00E5A0;color:#000;">∑</div>
+            <h3>Matematyka</h3>
+            <p>Obliczanie torów jazdy, kątów obrotu, prędkości i odległości sprawia, że wzory nabierają sensu w praktyce.</p>
+            <ul class="tag-list">
+              <li>Geometria</li>
+              <li>Trygonometria</li>
+              <li>Statystyka</li>
+            </ul>
+          </article>
+
+          <article class="subject-card">
+            <div class="subject-icon" style="background:#3B82F6;color:#fff;">⚡</div>
+            <h3>Fizyka</h3>
+            <p>Prawo akcji i reakcji, siła tarcia, momenty sił – uczniowie obserwują fizykę w działaniu, nie tylko na tablicy.</p>
+            <ul class="tag-list">
+              <li>Mechanika</li>
+              <li>Elektronika</li>
+              <li>Optyka</li>
+            </ul>
+          </article>
+
+          <article class="subject-card">
+            <div class="subject-icon" style="background:#F59E0B;color:#000;">&lt;/&gt;</div>
+            <h3>Informatyka</h3>
+            <p>Od Scratcha przez Python po Arduino – roboty są najlepszym środowiskiem do nauki logiki i algorytmów.</p>
+            <ul class="tag-list">
+              <li>Algorytmy</li>
+              <li>Pętle i warunki</li>
+              <li>Debugowanie</li>
+            </ul>
+          </article>
+
+          <article class="subject-card">
+            <div class="subject-icon" style="background:#EC4899;color:#fff;">🎨</div>
+            <h3>Plastyka / Technika</h3>
+            <p>Projektowanie obudów, tworzenie makiet, estetyka interfejsów – robotyka ma też wymiar artystyczny.</p>
+            <ul class="tag-list">
+              <li>Druk 3D</li>
+              <li>Design thinking</li>
+              <li>Prototypowanie</li>
+            </ul>
+          </article>
+
+          <article class="subject-card">
+            <div class="subject-icon" style="background:#8B5CF6;color:#fff;">🌍</div>
+            <h3>Języki obce</h3>
+            <p>Dokumentacja techniczna po angielsku, prezentacje projektów, nazewnictwo podzespołów – język w kontekście.</p>
+            <ul class="tag-list">
+              <li>English for STEM</li>
+              <li>Prezentacje</li>
+              <li>Dokumentacja</li>
+            </ul>
+          </article>
+
+          <article class="subject-card">
+            <div class="subject-icon" style="background:#14B8A6;color:#fff;">♟</div>
+            <h3>Zajęcia dodatkowe</h3>
+            <p>Koła robotyki, olimpiady (WRO, FLL, FIRST) i hackathony rozwijają pasje i otwierają drzwi na uczelnie techniczne.</p>
+            <ul class="tag-list">
+              <li>WRO</li>
+              <li>FLL</li>
+              <li>Hackathony</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TABELA ZESTAWÓW -->
+    <section class="section" id="zestawy" aria-labelledby="zest-heading">
+      <div class="container">
+        <div class="section-label">Porównanie</div>
+        <h2 id="zest-heading">Popularne zestawy robotyczne dla szkół</h2>
+        <p class="section-intro">Wybór zestawu zależy od wieku uczniów, budżetu i celów dydaktycznych. Poniższa tabela pomoże podjąć decyzję.</p>
+        <div class="table-wrapper" role="region" aria-label="Porównanie zestawów robotycznych">
+          <table class="comparison-table">
+            <caption>Porównanie popularnych zestawów robotycznych – rok szkolny 2024/2025</caption>
+            <thead>
+              <tr>
+                <th scope="col">Zestaw</th>
+                <th scope="col">Producent</th>
+                <th scope="col">Wiek</th>
+                <th scope="col">Język programowania</th>
+                <th scope="col">Cena (PLN)</th>
+                <th scope="col">Przedmioty</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Zestaw"><strong>LEGO Education SPIKE Prime</strong></td>
+                <td data-label="Producent">LEGO</td>
+                <td data-label="Wiek">10–14 lat</td>
+                <td data-label="Język">Scratch / Python</td>
+                <td data-label="Cena">~1 800</td>
+                <td data-label="Przedmioty">Matematyka, Fizyka, Informatyka</td>
+              </tr>
+              <tr>
+                <td data-label="Zestaw"><strong>LEGO Mindstorms EV3</strong></td>
+                <td data-label="Producent">LEGO</td>
+                <td data-label="Wiek">12–18 lat</td>
+                <td data-label="Język">EV3 Blocks / Python / Java</td>
+                <td data-label="Cena">~2 200</td>
+                <td data-label="Przedmioty">Fizyka, Informatyka, Technika</td>
+              </tr>
+              <tr class="row-highlight">
+                <td data-label="Zestaw"><strong>mBot2 (mBlock)</strong></td>
+                <td data-label="Producent">Makeblock</td>
+                <td data-label="Wiek">8–14 lat</td>
+                <td data-label="Język">Scratch / Arduino C</td>
+                <td data-label="Cena">~650</td>
+                <td data-label="Przedmioty">Informatyka, Matematyka</td>
+              </tr>
+              <tr>
+                <td data-label="Zestaw"><strong>Micro:bit + Zestaw</strong></td>
+                <td data-label="Producent">Micro:bit Foundation</td>
+                <td data-label="Wiek">8–16 lat</td>
+                <td data-label="Język">MakeCode / Python / JavaScript</td>
+                <td data-label="Cena">~200</td>
+                <td data-label="Przedmioty">Informatyka, Fizyka</td>
+              </tr>
+              <tr>
+                <td data-label="Zestaw"><strong>VEX IQ 2. gen.</strong></td>
+                <td data-label="Producent">VEX Robotics</td>
+                <td data-label="Wiek">11–18 lat</td>
+                <td data-label="Język">VEXcode / Python</td>
+                <td data-label="Cena">~2 500</td>
+                <td data-label="Przedmioty">Matematyka, Fizyka, Inżynieria</td>
+              </tr>
+              <tr>
+                <td data-label="Zestaw"><strong>Arduino Starter Kit</strong></td>
+                <td data-label="Producent">Arduino</td>
+                <td data-label="Wiek">14+ lat</td>
+                <td data-label="Język">C/C++ (Arduino IDE)</td>
+                <td data-label="Cena">~350</td>
+                <td data-label="Przedmioty">Elektronika, Fizyka, Informatyka</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="table-note">* Ceny orientacyjne na rynku polskim. Dostępne zniżki dla szkół i programy dofinansowania (np. Laboratoria Przyszłości).</p>
+      </div>
+    </section>
+
+    <!-- ZALETY I WYZWANIA -->
+    <section class="section section-dark" id="zalety" aria-labelledby="zalety-heading">
+      <div class="container">
+        <div class="section-label">Analiza</div>
+        <h2 id="zalety-heading">Zalety i wyzwania robotyki w szkole</h2>
+        <div class="lists-grid">
+
+          <div class="list-block list-block--green">
+            <h3 class="list-title">
+              <span class="list-icon">✓</span> Zalety robotyki edukacyjnej
+            </h3>
+            <ul class="styled-list">
+              <li>Rozwija <strong>myślenie komputacyjne</strong> i algorytmiczne od najmłodszych lat</li>
+              <li>Uczy <strong>pracy zespołowej</strong>, podziału ról i komunikacji w projekcie</li>
+              <li>Motywuje uczniów do nauki przedmiotów ścisłych przez praktyczne efekty</li>
+              <li>Kształtuje <strong>wytrwałość</strong> i odporność na porażkę (iteracyjne poprawki)</li>
+              <li>Przygotowuje do zawodów przyszłości: inżynieria, AI, automatyka, IoT</li>
+              <li>Rozbudza <strong>kreatywność i innowacyjność</strong> – brak jednej właściwej odpowiedzi</li>
+              <li>Wspiera uczniów z różnymi stylami uczenia się (wzrokowcy, kinestetyczni)</li>
+              <li>Otwiera drogę do olimpiad, konkursów i stypendiów (WRO, FLL, FIRST)</li>
+            </ul>
+          </div>
+
+          <div class="list-block list-block--amber">
+            <h3 class="list-title">
+              <span class="list-icon">!</span> Wyzwania i jak je pokonać
+            </h3>
+            <ul class="styled-list">
+              <li><strong>Koszt zestawów</strong> – rozwiązanie: program „Laboratoria Przyszłości", granty MEN</li>
+              <li><strong>Brak wykwalifikowanych nauczycieli</strong> – rozwiązanie: szkolenia, kursy online, społeczność</li>
+              <li>Ograniczony czas lekcyjny – rozwiązanie: koła zainteresowań, projekty interdyscyplinarne</li>
+              <li><strong>Różnice w umiejętnościach</strong> uczniów – rozwiązanie: zróżnicowane role w grupach</li>
+              <li>Szybka dezaktualizacja technologii – rozwiązanie: wybór otwartych platform (Arduino, Python)</li>
+              <li><strong>Dostępność dla wszystkich</strong> szkół – rozwiązanie: kooperacja z uczelniami, firmami</li>
+              <li>Ryzyko skupienia na zabawie bez celów edukacyjnych – rozwiązanie: scenariusze lekcji</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section class="section" id="galeria" aria-labelledby="gal-heading">
+      <div class="container">
+        <div class="section-label">Galeria</div>
+        <h2 id="gal-heading">Robotyka w akcji</h2>
+        <p class="section-intro">Prawdziwe projekty, prawdziwe emocje – tak wygląda robotyka w polskich szkołach.</p>
+
+        <div class="gallery-grid">
+
+          <figure class="gallery-item gallery-item--wide">
+            <div class="gallery-img-wrap" style="background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);">
+              <svg viewBox="0 0 600 340" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
+                <!-- classroom illustration -->
+                <rect width="600" height="340" fill="#0f2027"/>
+                <!-- desks -->
+                <rect x="60" y="200" width="120" height="10" rx="3" fill="#2c5364"/>
+                <rect x="240" y="200" width="120" height="10" rx="3" fill="#2c5364"/>
+                <rect x="420" y="200" width="120" height="10" rx="3" fill="#2c5364"/>
+                <!-- robots on desks -->
+                <rect x="105" y="165" width="30" height="35" rx="4" fill="#00E5A0"/>
+                <rect x="108" y="158" width="24" height="18" rx="3" fill="#00E5A0"/>
+                <circle cx="114" cy="165" r="3" fill="#000"/>
+                <circle cx="122" cy="165" r="3" fill="#000"/>
+                <rect x="285" y="165" width="30" height="35" rx="4" fill="#3B82F6"/>
+                <rect x="288" y="158" width="24" height="18" rx="3" fill="#3B82F6"/>
+                <circle cx="294" cy="165" r="3" fill="#fff"/>
+                <circle cx="302" cy="165" r="3" fill="#fff"/>
+                <rect x="455" y="170" width="30" height="30" rx="4" fill="#F59E0B"/>
+                <rect x="458" y="163" width="24" height="18" rx="3" fill="#F59E0B"/>
+                <circle cx="464" cy="170" r="3" fill="#000"/>
+                <circle cx="472" cy="170" r="3" fill="#000"/>
+                <!-- students (simplified silhouettes) -->
+                <circle cx="120" cy="230" r="14" fill="#8892B0"/>
+                <rect x="108" y="244" width="24" height="30" rx="5" fill="#8892B0"/>
+                <circle cx="300" cy="230" r="14" fill="#8892B0"/>
+                <rect x="288" y="244" width="24" height="30" rx="5" fill="#8892B0"/>
+                <circle cx="470" cy="230" r="14" fill="#8892B0"/>
+                <rect x="458" y="244" width="24" height="30" rx="5" fill="#8892B0"/>
+                <!-- board -->
+                <rect x="100" y="60" width="400" height="80" rx="6" fill="#1A2038"/>
+                <text x="200" y="108" fill="#00E5A0" font-size="18" font-family="monospace">while True: move_forward()</text>
+                <!-- light beams -->
+                <line x1="300" y1="30" x2="120" y2="200" stroke="rgba(255,255,255,0.04)" stroke-width="40"/>
+                <line x1="300" y1="30" x2="300" y2="200" stroke="rgba(255,255,255,0.04)" stroke-width="40"/>
+                <line x1="300" y1="30" x2="480" y2="200" stroke="rgba(255,255,255,0.04)" stroke-width="40"/>
+              </svg>
+            </div>
+            <figcaption>
+              <strong>Lekcja robotyki w klasie szkolnej</strong> – uczniowie programują roboty przy własnych stanowiskach, ucząc się pętli i warunków w praktycznym kontekście.
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <div class="gallery-img-wrap" style="background: linear-gradient(135deg,#1a1a2e,#16213e,#0f3460);">
+              <svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
+                <!-- LEGO-style robot -->
+                <rect x="110" y="40" width="100" height="80" rx="8" fill="#F59E0B"/>
+                <rect x="120" y="50" width="80" height="50" rx="5" fill="#1a1a2e"/>
+                <circle cx="145" cy="68" r="10" fill="#00E5A0"/>
+                <circle cx="145" cy="68" r="5" fill="#000"/>
+                <circle cx="175" cy="68" r="10" fill="#00E5A0"/>
+                <circle cx="175" cy="68" r="5" fill="#000"/>
+                <rect x="145" y="85" width="30" height="6" rx="3" fill="#00E5A0"/>
+                <!-- body -->
+                <rect x="100" y="120" width="120" height="70" rx="6" fill="#F59E0B"/>
+                <rect x="115" y="130" width="90" height="45" rx="4" fill="#1a1a2e"/>
+                <!-- LEGO studs -->
+                <circle cx="130" cy="135" r="4" fill="#E88A00"/>
+                <circle cx="145" cy="135" r="4" fill="#E88A00"/>
+                <circle cx="160" cy="135" r="4" fill="#E88A00"/>
+                <circle cx="175" cy="135" r="4" fill="#E88A00"/>
+                <!-- arms -->
+                <rect x="65" y="122" width="35" height="18" rx="5" fill="#F59E0B"/>
+                <rect x="220" y="122" width="35" height="18" rx="5" fill="#F59E0B"/>
+                <!-- legs -->
+                <rect x="120" y="190" width="30" height="20" rx="4" fill="#F59E0B"/>
+                <rect x="170" y="190" width="30" height="20" rx="4" fill="#F59E0B"/>
+                <!-- glow -->
+                <circle cx="160" cy="100" r="60" fill="rgba(245,158,11,0.05)"/>
+              </svg>
+            </div>
+            <figcaption>
+              <strong>Zestaw LEGO Education SPIKE Prime</strong> – kolorowe klocki, silniki i czujniki pozwalają budować funkcjonalne roboty bez lutownicy, idealne dla szkół podstawowych.
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <div class="gallery-img-wrap" style="background: linear-gradient(135deg,#0a2a0a,#0d3b0d,#1a5c1a);">
+              <svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
+                <!-- competition arena -->
+                <rect x="20" y="120" width="280" height="80" rx="6" fill="#1a5c1a"/>
+                <rect x="20" y="120" width="280" height="4" fill="#00E5A0" opacity="0.6"/>
+                <!-- robot 1 (winner) -->
+                <rect x="60" y="80" width="60" height="40" rx="5" fill="#3B82F6"/>
+                <rect x="70" y="88" width="40" height="22" rx="3" fill="#1a1a2e"/>
+                <circle cx="82" cy="97" r="5" fill="#00E5A0"/>
+                <circle cx="98" cy="97" r="5" fill="#00E5A0"/>
+                <rect x="55" y="90" width="8" height="15" rx="3" fill="#3B82F6"/>
+                <rect x="117" y="90" width="8" height="15" rx="3" fill="#3B82F6"/>
+                <rect x="70" y="120" width="18" height="12" rx="3" fill="#3B82F6"/>
+                <rect x="92" y="120" width="18" height="12" rx="3" fill="#3B82F6"/>
+                <!-- trophy / star -->
+                <polygon points="90,50 94,63 108,63 97,71 101,84 90,77 79,84 83,71 72,63 86,63" fill="#F59E0B"/>
+                <!-- robot 2 -->
+                <rect x="200" y="88" width="50" height="32" rx="5" fill="#EC4899"/>
+                <rect x="208" y="95" width="34" height="18" rx="3" fill="#1a1a2e"/>
+                <circle cx="218" cy="103" r="4" fill="#F59E0B"/>
+                <circle cx="232" cy="103" r="4" fill="#F59E0B"/>
+                <rect x="210" y="120" width="14" height="10" rx="3" fill="#EC4899"/>
+                <rect x="226" y="120" width="14" height="10" rx="3" fill="#EC4899"/>
+                <!-- score -->
+                <rect x="120" y="60" width="80" height="28" rx="5" fill="rgba(0,0,0,0.5)"/>
+                <text x="160" y="78" fill="#00E5A0" font-size="13" font-family="monospace" text-anchor="middle">WRO 2024</text>
+              </svg>
+            </div>
+            <figcaption>
+              <strong>Zawody World Robot Olympiad (WRO)</strong> – drużyny ze szkół z całego świata rywalizują w kategoriach RoboMission i Future Innovators, ucząc się przez sportową rywalizację.
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <div class="gallery-img-wrap" style="background: linear-gradient(135deg,#1a0533,#2d0a5c,#3b0f7a);">
+              <svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-hidden="true">
+                <!-- Arduino board illustration -->
+                <rect x="60" y="50" width="200" height="130" rx="6" fill="#006B3C"/>
+                <!-- pins row top -->
+                <rect x="70" y="44" width="180" height="10" rx="2" fill="#888"/>
+                <!-- USB port -->
+                <rect x="58" y="80" width="14" height="22" rx="2" fill="#555"/>
+                <!-- chip -->
+                <rect x="115" y="90" width="90" height="55" rx="4" fill="#1a1a2e"/>
+                <text x="160" y="120" fill="#00E5A0" font-size="9" font-family="monospace" text-anchor="middle">ATMEGA328P</text>
+                <!-- LED -->
+                <circle cx="235" cy="72" r="6" fill="#00E5A0" opacity="0.9"/>
+                <circle cx="235" cy="72" r="3" fill="#fff" opacity="0.7"/>
+                <!-- reset button -->
+                <rect x="90" y="85" width="16" height="16" rx="3" fill="#CC0000"/>
+                <!-- wires -->
+                <line x1="260" y1="80" x2="290" y2="50" stroke="#F59E0B" stroke-width="2.5" stroke-dasharray="0"/>
+                <line x1="260" y1="100" x2="295" y2="100" stroke="#3B82F6" stroke-width="2.5"/>
+                <line x1="260" y1="120" x2="290" y2="150" stroke="#EC4899" stroke-width="2.5"/>
+                <!-- connected sensor -->
+                <rect x="285" y="40" width="25" height="20" rx="3" fill="#F59E0B"/>
+                <rect x="285" y="95" width="25" height="15" rx="3" fill="#3B82F6"/>
+                <rect x="285" y="145" width="25" height="15" rx="3" fill="#EC4899"/>
+                <!-- logo text -->
+                <text x="160" y="175" fill="rgba(255,255,255,0.3)" font-size="11" font-family="monospace" text-anchor="middle">Arduino UNO R3</text>
+              </svg>
+            </div>
+            <figcaption>
+              <strong>Platforma Arduino w laboratorium</strong> – mikrokontroler Arduino UNO z podłączonymi sensorami i modułami to idealne środowisko dla uczniów starszych klas i licealistów.
+            </figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA / KONTAKT -->
+    <section class="section cta-section" id="kontakt" aria-labelledby="cta-heading">
+      <div class="container cta-inner">
+        <div class="cta-text">
+          <div class="section-label">Zaczynamy?</div>
+          <h2 id="cta-heading">Wprowadź robotykę do swojej szkoły</h2>
+          <p>Skontaktuj się z nami, aby dowiedzieć się o dostępnych programach dofinansowania, gotowych scenariuszach lekcji i szkoleniach dla nauczycieli.</p>
+          <ul class="contact-info">
+            <li>📧 kontakt@robotykaedukacja.pl</li>
+            <li>📞 +48 22 123 45 67</li>
+            <li>📍 ul. Technologiczna 1, 00-001 Warszawa</li>
+          </ul>
+        </div>
+        <form class="contact-form" aria-label="Formularz kontaktowy" novalidate>
+          <div class="form-group">
+            <label for="name">Imię i nazwisko</label>
+            <input type="text" id="name" name="name" placeholder="Jan Kowalski" autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Adres e-mail</label>
+            <input type="email" id="email" name="email" placeholder="jan@szkola.edu.pl" autocomplete="email" />
+          </div>
+          <div class="form-group">
+            <label for="message">Wiadomość</label>
+            <textarea id="message" name="message" rows="4" placeholder="Opisz potrzeby swojej szkoły..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Wyślij wiadomość &rarr;</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#hero" class="logo">Robo<span>Edu</span></a>
+        <p>Projekt edukacyjny promujący robotykę<br />w polskich szkołach podstawowych i średnich.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Stopka nawigacja">
+        <ul>
+          <li><a href="#czym-jest">Czym jest robotyka?</a></li>
+          <li><a href="#zastosowania">Zastosowania</a></li>
+          <li><a href="#zestawy">Zestawy</a></li>
+          <li><a href="#zalety">Zalety i wyzwania</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="footer-links">
+        <h4>Przydatne linki</h4>
+        <ul>
+          <li><a href="https://wro-association.org" target="_blank" rel="noopener noreferrer">World Robot Olympiad</a></li>
+          <li><a href="https://www.firstlegoleague.org" target="_blank" rel="noopener noreferrer">FIRST LEGO League</a></li>
+          <li><a href="https://www.gov.pl/web/laboratoria" target="_blank" rel="noopener noreferrer">Laboratoria Przyszłości</a></li>
+          <li><a href="https://makecode.microbit.org" target="_blank" rel="noopener noreferrer">micro:bit MakeCode</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 RoboEdu – Projekt szkolny. Wykonano w HTML5 + CSS3.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const toggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!expanded));
+      navLinks.classList.toggle('open');
+    });
+    // Close nav on link click (mobile)
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+    // Active nav link on scroll
+    const sections = document.querySelectorAll('section[id]');
+    const navAnchors = document.querySelectorAll('.nav-links a[href^="#"]');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navAnchors.forEach(a => a.classList.remove('active'));
+          const match = document.querySelector(`.nav-links a[href="#${entry.target.id}"]`);
+          if (match) match.classList.add('active');
+        }
+      });
+    }, { threshold: 0.4 });
+    sections.forEach(s => observer.observe(s));
+    // Form submit
+    document.querySelector('.contact-form').addEventListener('submit', e => {
+      e.preventDefault();
+      const btn = e.target.querySelector('button[type="submit"]');
+      btn.textContent = '✓ Wiadomość wysłana!';
+      btn.style.background = '#00E5A0';
+      btn.style.color = '#000';
+      btn.disabled = true;
+    });
+  </script>
+</body>
+</html>
